@@ -6,15 +6,14 @@ import App from './App';
 
 
 
-// const elem = (
-//   <div>
-//     <h2>Hello World!</h2>
-//     <input type="text" />
-//     <button />
-//     <button></button>
-//   </div>
-// )
-const elem = React.createElement(); // При этом React - это класс, а createElement - метод этого класса.
+const elem = (
+  <div>
+    <h2>Hello World!</h2>
+    <input type="text" />
+    <button />
+    <button></button>
+  </div>
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
