@@ -14,7 +14,7 @@ import App from './components/app/app';
 //     <button></button>
 //   </div>
 // )
-const elem = React.createElement(); // При этом React - это класс, а createElement - метод этого класса.
+// const elem = React.createElement(); // При этом React - это класс, а createElement - метод этого класса.
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
