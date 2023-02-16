@@ -39,12 +39,14 @@ class App extends Component {
             rise: false,
             id: this.maxId++
         }
-        this.setState(({data}) => {
+        if (newItem.name.length > 3 && newItem.salary !== '') {
+            this.setState(({data}) => {
             const newArr = [...data, newItem];
             return {
                 data: newArr
-            }
-        });
+                }                
+            });               
+        }
     }
 
     onToggleProp = (id, prop) => {
